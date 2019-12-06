@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a,b,t,hcf,x,y,lcm;
+    int a,b,hcf,x,y,lcm;
 
     printf("Enter two numbers");
     scanf("%d %d",&x,&y);
@@ -12,7 +12,7 @@ int main()
 
     while(b!=0)
     {
-        t=b;
+       int t=b;
         b=a%b;
         a=t;
     }
